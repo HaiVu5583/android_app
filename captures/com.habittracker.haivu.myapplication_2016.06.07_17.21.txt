@@ -1,0 +1,52 @@
+Applications Memory Usage (kB):
+Uptime: 202764235 Realtime: 243640772
+
+** MEMINFO in pid 12619 [com.habittracker.haivu.myapplication] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap        0        0        0        0    12992    10869     2122
+  Dalvik Heap     8485     8340      140     2028    18536    17180     1356
+ Dalvik Other     1188     1188        0       52                           
+        Stack      304      304        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        5        0        4        0                           
+     .so mmap     1723      144      748     2172                           
+    .apk mmap      298        0       80        0                           
+    .ttf mmap      209        0      192        0                           
+    .dex mmap     4032       88     3944        0                           
+    .oat mmap     1584        0      700        0                           
+    .art mmap     1247     1080        4      248                           
+   Other mmap      228        8      216        0                           
+   EGL mtrack    86508    86508        0        0                           
+      Unknown     7268     7140      108     2504                           
+        TOTAL   113081   104800     6136     7004    31528    28049     3478
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     9424
+         Native Heap:        0
+                Code:     5896
+               Stack:      304
+            Graphics:    86508
+       Private Other:     8804
+              System:     2145
+ 
+               TOTAL:   113081      TOTAL SWAP (KB):     7004
+ 
+ Objects
+               Views:      118         ViewRootImpl:        2
+         AppContexts:        3           Activities:        2
+              Assets:        3        AssetManagers:        3
+       Local Binders:       14        Proxy Binders:       25
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+ 
+ Asset Allocations
+    zip:/data/data/com.habittracker.haivu.myapplication/files/instant-run/left/resources.ap_:/resources.arsc: 197K
